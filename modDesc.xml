@@ -1,202 +1,160 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="47">
     <author>Edge Gaming / Castiga</author>
-    <translationsby>Castiga</translationsby>
-    <version>1.1.0.0</version>
-    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
-        <en>EDGE Sign</en>
-        <de>EDGE Sign</de>
-        <fr>EDGE Sign</fr>
-        <es>EDGE Sign</es>
-        <ru>EDGE Sign</ru>
-        <pl>EDGE Sign</pl>
-        <it>EDGE Sign</it>
+    <version>1.0.0.0</version>
+    <title><!-- en=English de=Germany jp=Japan pl=Poland cz=Czechia fr=French es=Spanish ru=Russian it=Italy pt=Portugal hu=Hungary nl=Netherlands cs=Serbia and Montenegro ct=Central African Republic br=Brazil tr=Turkey ro=Romania kr=South Korea -->
+        <en>EDGE Liquid Fertilizer Storage</en>
+        <de>EDGE Flüssigdüngerlagerung</de>
+        <fr>EDGE Stockage D'engrais Liquide</fr>
+		<es>EDGE Almacenamiento de fertilizante líquido</es>
+		<ru>EDGE Хранение жидких удобрений</ru>
+		<pl>EDGE Przechowywanie płynnych nawozów</pl>
     </title>
     <description>
-        <en><![CDATA[This Repository is a Template Repo for our FS 19 mods. It includes the necessary files for an FS19 mod.
+        <en><![CDATA[EDGE Liquid Fertilizer is a placeable Liquid Fertilizer storage for your farm, here you can store Slurry, Digestate, Herbicide & Liquid Fertilizer.
+You will be able to choose between a small version, a bigger one with dubble the storage & one big stacked one for those who wanto save some space at their farm.
+The amount stored will show up in your storage.
+The Buildings have worklights for nightime work, and comes with easy access for all your Machinery.
 
--All buildings have automatic lighting.
--All Buildings supports "Seasons" and "Courseplay Six".
--All Buildings have FillTypeCategories: Farmsilo (to Support Custom Fruits)
+Building choises are as followed:
 
---Technical Info--
+EDGE Liquid Fertilizer:
+Price: 60.000€
+Upkeep: 20€ Daily
+Size: 10 x 8m
+Weight: 80.000kg
+Capacity: 60.000 Litre
+Overloading Speed 2000 L/s
 
-Small Grain Silo:
-Price: 110.000€
-Upkeep: 45€ Daily.
-Size: 14 x 15 Meters.
-Capacity: 100.000 Litre.
-Overloading Speed 2000 Liters Per Second.
+EDGE Liquid Fertilizer Stacked:
+Price: 100.000€
+Upkeep: 30€ Daily
+Size: 10 x 8m
+Weight: 110.000kg
+Capacity: 120.000 Litre
+Overloading Speed 2000 L/s]]></en>
+        <de><![CDATA[Liquid Ferilizer ist ein platzierbares Flüssigdüngerlager für Ihren Betrieb. Hier können Sie Gülle, Gärreste, Herbizide und Flüssigdünger lagern.
+Sie können zwischen einer kleinen, einer größeren Version mit doppeltem Speicher und einer großen gestapelten Version für diejenigen wählen, die auf ihrer Farm etwas Platz sparen möchten.
+Der gespeicherte Betrag wird in Ihrem Speicher angezeigt.
+Die Gebäude verfügen über Arbeitsscheinwerfer für die Nachtarbeit und sind für alle Ihre Maschinen leicht zugänglich.
 
--Supports "Seasons", "Courseplay Six" & "MaizePlus".
+Die Auswahl der Gebäude ist wie folgt:
 
--If you find any bugs or got suggestions for improvment, please dont hesitate to contact us on our Github page at https://github.com/FS19-Mods-By-EDGE/
-or Contact EDGEPureGaming on facebook.
+EDGE Flüssigdünger:
+Preis: 60.000 €
+Unterhalt: 20 € Täglich
+Größe: 10 x 8 m
+Gewicht: 80.000 kg
+Fassungsvermögen: 60.000 Liter
+Überladegeschwindigkeit 2000 L/s
 
-Changelog 1.0.0.0:
-- Initial Realease.]]></en>
+EDGE Flüssigdünger gestapelt:
+Preis: 100.000 €
+Unterhalt: 30 € Täglich
+Größe: 10 x 8 m
+Gewicht: 110.000 kg
+Fassungsvermögen: 120.000 Liter
+Überladegeschwindigkeit 2000 L/s]]></de>
+        <fr><![CDATA[Liquid Ferilizer est un stockage d’engrais liquides pour votre ferme. Vous pouvez y stocker du lisier, du digestat, des herbicides et des engrais liquides.
+Vous pourrez choisir entre une version plus petite, une version plus grande avec une mémoire double et une grande version empilée pour ceux qui veulent économiser de l’espace sur leur ferme.
+La quantité stockée apparaîtra dans votre mémoire.
+Les bâtiments ont des projecteurs de travail pour le travail de nuit et sont livrés avec un accès facile pour toutes vos machines.
 
-<de><![CDATA[Einige Silos für die Lagerung von Korn. Das Paket enthält vier Hofsilos und 6 Siloerweiterungen.
+Les choix de construction sont les suivants:
 
--Alle Gebäude verfügen über eine automatische Beleuchtung.
--Alle Gebäude unterstützen "Seasons" und "Courseplay Six".
--Alle Gebäude haben FillTypeCategories: Farmsilo (zur Unterstützung benutzerdefinierter Früchte)
+EDGE Engrais liquide:
+Prix: 60.000 €
+Entretien: 20 € par jour
+Taille: 10 x 8m
+Poids: 80.000kg
+Capacité: 60.000 litres
+Surcharge Vitesse 2000 L/s
 
---Technische Information--
+EDGE Engrais liquide empilé:
+Prix: 100.000 €
+Entretien: 30 € par jour
+Taille: 10 x 8m
+Poids: 110.000kg
+Capacité: 120.000 litres
+Surcharge Vitesse 2000 L/s]]></fr>
+		<es><![CDATA[EDGE Fertilizante liquido es un almacenamiento placentero de Fertilizante Líquido para su granja, aquí puede almacenar Lodos, Digestatos, Herbicidas y Fertilizantes Líquidos
+Podrás elegir entre una versión pequeña, una más grande con duplicar el almacenamiento y una grande apilada para aquellos que desean ahorrar algo de espacio en su granja.
+La cantidad almacenada se mostrará en su almacenamiento.
+Los edificios tienen luces de trabajo para el trabajo nocturno y cuentan con un fácil acceso para toda su maquinaria.
 
-Kleines Getreidesilo:
-Preis: 110.000 €
-Unterhalt: 45 € Täglich.
-Größe: 14 x 15 Meter.
-Fassungsvermögen: 100.000 Liter.
-Überladegeschwindigkeit 2000 Liter pro Sekunde.
+Las opciones de construcción son las siguientes:
 
--Unterstützt "Seasons", "Courseplay Six" und "MaizePlus".
+Fertilizante líquido EDGE:
+Precio: 60.000 €
+Mantenimiento: 20 € por día.
+Tamaño: 10 x 8m
+Peso: 80.000kg.
+Capacidad: 60.000 litros.
+Velocidad de sobrecarga 2000 L / s
 
--Wenn Sie Fehler finden oder Verbesserungsvorschläge haben, zögern Sie bitte nicht, uns auf unserer Github-Seite unter https://github.com/FS19-Mods-By-EDGE/
-zu kontaktieren oder EDGEPureGaming auf Facebook zu kontaktieren.
+Fertilizante Líquido EDGE Apilado:
+Precio: 100.000 €
+Mantenimiento: 30 € por día.
+Tamaño: 10 x 8m
+Peso: 110.000kg.
+Capacidad: 120.000 litros.
+Velocidad de sobrecarga 2000 L / s]]></es>
+		<ru><![CDATA[EDGE Жидкое удобрение - это место для хранения жидких удобрений для вашей фермы, здесь вы можете хранить жидкий навоз, дайджест, гербицид и жидкие удобрения.
+Вы сможете выбрать между маленькой версией, более крупной с дублированием хранилища и одной большой, для тех, кто хочет сэкономить место на своей ферме.
+Сумма хранится будет отображаться в вашем хранилище.
+Здания имеют рабочие фары для ночной работы и имеют легкий доступ ко всем вашим машинам.
 
-Änderungsprotokoll 1.0.0.0:
-- Erstveröffentlichung.]]></de>
+Выборы здания следующие:
 
-        <fr><![CDATA[Quelques silos pour stocker votre Grain. Le pack contient 4 silos de ferme et 6 extensions de silo.
+EDGE Жидкое удобрение:
+Цена: 60.000 €
+Содержание: 20 € в день
+Размер: 10 х 8 м
+Вес: 80.000 кг
+Емкость: 60.000 литров
+Скорость перегрузки 2000 л / с
 
--Tous les bâtiments ont un éclairage automatique.
--Tous les bâtiments prennent en charge "Seasons" et "Courseplay Six".
--Tous les bâtiments ont FillTypeCategories: Farmsilo (pour prendre en charge les fruits personnalisés)
+EDGE Жидкое удобрение в штабеле:
+Цена: 100.000 €
+Содержание: 30 € в день
+Размер: 10 х 8 м
+Вес: 110.000 кг
+Емкость: 120.000 литров
+Скорость перегрузки 2000 л / с]]></ru>
+		<pl><![CDATA[EDGE Płynny nawóz to miejsce do przechowywania płynnych nawozów na potrzeby gospodarstwa, w którym można przechowywać gnojowicę, fermentat, herbicyd i płynny nawóz.
+Będziesz mógł wybrać pomiędzy małą wersją, większą z dubble i jedną dużą ułożoną dla tych, którzy chcą zaoszczędzić trochę miejsca w swojej farmie.
+Zapisana ilość pojawi się w Twoim magazynie.
+Budynki mają reflektory robocze do pracy w nocy i są łatwo dostępne dla wszystkich maszyn.
 
---Info technique--
+Wybór budynku jest następujący:
 
-Silo à petits grains:
-Prix: 110.000 €
-Entretien: 45 € par jour.
-Taille: 14 x 15 mètres.
-Capacité: 100.000 litres.
-Vitesse de surcharge 2000 litres par seconde.
+EDGE Liquid Fertilizer:
+Cena: 60 000 €
+Utrzymanie: 20 € dziennie
+Rozmiar: 10 x 8 m
+Waga: 80 000 kg
+Pojemność: 60 000 litrów
+Prędkość przeciążania 2000 L / s
 
--Supporte "Seasons", "Courseplay Six" & "MaizePlus".
-
--Si vous trouvez des bugs ou avez des suggestions d'amélioration, n'hésitez pas à nous contacter sur notre page Github à https://github.com/FS19-Mods-By-EDGE/
-ou Contacter EDGEPureGaming sur facebook.
-
-Changer le journal 1.0.0.0:
-- Première version.]]></fr>
-
-        <es><![CDATA[Algunos silos para almacenar tu grano. El paquete contiene 4 silos de granja y 6 extensiones de silo.
-
--Todos los edificios tienen iluminación automática.
--Todos los edificios son compatibles con "Seasons" y "Courseplay Six".
--Todos los edificios tienen FillTypeCategories: Farmsilo (para admitir frutas personalizadas)
-
---Información técnica--
-
-Silo de grano pequeño:
-Precio: 110.000 €
-Mantenimiento: 45 € diarios.
-Tamaño: 14 x 15 metros.
-Capacidad: 100.000 litros.
-Velocidad de sobrecarga de 2000 litros por segundo.
-
--Soporta "Seasons", "Courseplay Six" y "MaizePlus".
-
--Si encuentra algún error u obtiene sugerencias de mejora, no dude en contactarnos en nuestra página de Github en https://github.com/FS19-Mods-By-EDGE/
-o póngase en contacto con EDGEPureGaming en Facebook.
-
-Registro de cambios 1.0.0.0:
-- Versión inicial.]]></es>
-
-        <ru><![CDATA[Некоторые бункеры для хранения вашего зерна. Пакет содержит 4 бункера фермы и 6 расширений бункера.
-
--Все здания имеют автоматическое освещение.
--Все здания поддерживают "Seasons" и "Courseplay Six".
--Все здания имеют FillTypeCategories: Farmsilo (для поддержки пользовательских фруктов)
-
---Техническая информация--
-
-Бункер для мелкого зерна:
-Цена: 110.000 €
-Содержание: 45 € в день.
-Размер: 14 х 15 метров.
-Вместимость: 100.000 л.
-Скорость перегрузки 2000 литров в секунду.
-
--Поддержка "Seasons", "Courseplay Six" и "MaizePlus".
-
--Если вы обнаружите какие-либо ошибки или получите предложения по улучшению, пожалуйста, не стесняйтесь связаться с нами на нашей странице Github по адресу https://github.com/FS19-Mods-By-EDGE/
-или связаться с EDGEPureGaming на Facebook.
-
-Изменения 1.0.0.0:
-- Первый выпуск.]]></ru>
-
-        <pl><![CDATA[Niektóre silosy do przechowywania zboża. Pakiet zawiera 4 silosy rolnicze i 6 przedłużeń silosów.
-
--Wszystkie budynki mają automatyczne oświetlenie.
--Wszystkie budynki obsługują „Pory roku” i „Courseplay Six”.
--Wszystkie budynki mają FillTypeCategory: Farmsilo (do obsługi niestandardowych owoców)
-
---Informacje techniczne--
-
-Silos o małych ziarnach:
-Cena: 110.000 €
-Utrzymanie: 45 € dziennie.
-Rozmiar: 14 x 15 metrów.
-Pojemność: 100 000 litrów.
-Prędkość przeciążenia 2000 litrów na sekundę.
-
--Obsługuje „Seasons”, „Courseplay Six” i „MaizePlus”.
-
--Jeśli znajdziesz jakieś błędy lub masz sugestie dotyczące ulepszeń, nie wahaj się skontaktować z nami na naszej stronie Github pod adresem https://github.com/FS19-Mods-By-EDGE/
-lub Skontaktuj się z EDGEPureGaming na Facebooku.
-
-Lista zmian 1.0.0.0:
-- Pierwsze wydanie.]]></pl>
-        <it><![CDATA[Alcuni silos per conservare il grano. Il pacchetto contiene 4 silos agricoli e 6 estensioni per silo.
-
--Tutti gli edifici hanno l'illuminazione automatica.
--Tutti gli edifici supportano "Seasons" e "Courseplay Six".
--Tutti gli edifici hanno FillTypeCategories: Farmsilo (per supportare la frutta personalizzata)
-
---Informazioni tecniche--
-
-Silo per cereali piccoli:
-Prezzo: 110.000 €
-Manutenzione: 45 € al giorno.
-Dimensioni: 14 x 15 metri.
-Capacità: 100.000 litri.
-Velocità di sovraccarico 2000 litri al secondo.
-
--Supporta "Stagioni", "Courseplay Six" e "MaizePlus".
-
--Se trovi qualche bug o hai suggerimenti per l'improvvisazione, non esitare a contattarci sulla nostra pagina Github all'indirizzo https://github.com/FS19-Mods-By-EDGE/
-o Contatta EDGEPureGaming su Facebook.
-
-Elenco modifiche 1.0.0.0:
-- Realease iniziale.]]></it>
+EDGE Liquid Fertilizer Stacked:
+Cena: 100 000 €
+Utrzymanie: 30 € dziennie
+Rozmiar: 10 x 8 m
+Waga: 110 000 kg
+Pojemność: 120 000 litrów
+Prędkość przeciążania 2000 L / s]]></pl>
 	</description>
-    <iconFilename>EdgeSign_Icon.dds</iconFilename>
+    <iconFilename>TanksIcon.dds</iconFilename>
     <multiplayer supported="true"/>
+	<l10n filenamePrefix="modDesc/modDesc_l10n" />
     <storeItems>
-        <storeItem xmlFilename="data/EdgeSign.xml"/>
+        <storeItem xmlFilename="Tanks/EDGEFertilizerStorageStack.xml"/>
+        <storeItem xmlFilename="Tanks/EDGEFertilizerStorage.xml"/>
     </storeItems>
-	<l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
     </brands>
-    <!-- <l10n>
-        <text name="name_MultiSellingStation">
-            <en>Multi Selling Station</en>
-            <de>Multi Verkaufsstation</de>
-            <fr>Poste De Vente Multiple</fr>
-            <es>Estación De Venta Múltiple</es>
-            <ru>Мультипродажная станция</ru>
-            <pl>Stacja Sprzedaży</pl>
-        </text>
-    </l10n> -->
-    <credits><![CDATA[
-## Contributors
-- Castiga, EDGE Gaming
-## Translations
-- Castiga
-## Designers
-- Castiga]]></credits>
+	<!--<inputBindings>
+        <input name="FillStorage" key="ACTIVATE_OBJECT"/>
+    </inputBindings>-->
 </modDesc>

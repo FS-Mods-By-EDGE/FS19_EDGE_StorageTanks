@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="EDGE Fertilizer Storage Stacked" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.2.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="10" filename="textures/Decals_diffuse.dds"/>
+    <File fileId="11" filename="textures/Decals_normal.dds"/>
+    <File fileId="12" filename="textures/Decals_specular.dds"/>
+    <File fileId="1" filename="textures/EDGEFertilizerStorage_diffuse.dds"/>
+    <File fileId="2" filename="textures/EDGEFertilizerStorage_normal.dds"/>
+    <File fileId="3" filename="textures/EDGEFertilizerStorage_specular.dds"/>
+    <File fileId="21" filename="textures/lightswitch_diffuse.dds"/>
+    <File fileId="22" filename="textures/lightswitch_normal.dds"/>
+    <File fileId="23" filename="textures/lightswitch_specular.dds"/>
+    <File fileId="27" filename="$data/maps/textures/european/props/floodlightFixture_diffuse.dds"/>
+    <File fileId="28" filename="$data/maps/textures/european/props/floodlightFixture_normal.dds"/>
+    <File fileId="29" filename="$data/maps/textures/european/props/floodlightFixture_specular.dds"/>
+    <File fileId="26" filename="$data/maps/textures/european/props/lightPoleSet_emissive.dds"/>
+    <File fileId="14" filename="$data/maps/textures/shared/default_specular.dds"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="25" filename="$data/shaders/dashboardLightsShader.xml"/>
+    <File fileId="15" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="19" filename="$data/shared/default_normal.dds"/>
+    <File fileId="30" filename="$data/shared/window02_diffuse.dds"/>
+    <File fileId="31" filename="$data/shared/window02_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="EDGEHugefarmSilo2" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="19"/>
+    </Material>
+    <Material name="EDGEFertilizerStorage" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="floodlightFixture_mat" materialId="4">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Glossmap fileId="29"/>
+    </Material>
+    <Material name="Decals_mat" materialId="5">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+    </Material>
+    <Material name="Building_mat" materialId="9" alphaBlending="true" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="floodLightGlass_mat" materialId="6" alphaBlending="true" customShaderId="25">
+      <Texture fileId="30"/>
+      <Normalmap fileId="19"/>
+      <Glossmap fileId="31"/>
+      <Custommap name="mEmissiveMap" fileId="26"/>
+      <CustomParameter name="lightControl" value="1 1 1 1"/>
+    </Material>
+    <Material name="switchLightoff_mat" materialId="180" diffuseColor="1 1 1 1" customShaderId="25">
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="23"/>
+      <Emissivemap fileId="21"/>
+      <Custommap name="mEmissiveMap" fileId="26"/>
+      <CustomParameter name="lightControl" value="1 0 0 1"/>
+    </Material>
+    <Material name="switch_mat" materialId="182">
+      <Texture fileId="21"/>
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="23"/>
+    </Material>
+    <Material name="switchLighton_mat" materialId="179" diffuseColor="1 1 1 1" customShaderId="25">
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="23"/>
+      <Emissivemap fileId="21"/>
+      <Custommap name="mEmissiveMap" fileId="26"/>
+      <CustomParameter name="lightControl" value="0 1 0 1"/>
+    </Material>
+    <Material name="switchLightauto_mat" materialId="181" diffuseColor="1 1 1 1" customShaderId="25">
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="23"/>
+      <Emissivemap fileId="21"/>
+      <Custommap name="mEmissiveMap" fileId="26"/>
+      <CustomParameter name="lightControl" value="0 0 1 1"/>
+    </Material>
+    <Material name="switchLight_mat" materialId="178">
+      <Texture fileId="21"/>
+      <Normalmap fileId="22" bumpDepth="2"/>
+      <Glossmap fileId="23"/>
+    </Material>
+    <Material name="EDGE_Filling_mat03" materialId="177" diffuseColor="0.109804 0.109804 0.109804 1">
+    </Material>
+    <Material name="Building_mat" materialId="11" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="PipesPlus_mat" materialId="10" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="15" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="14"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="EDGEFertilizerStorageStack.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="EDGEFertilizerStorageStack" nodeId="57">
+      <TransformGroup name="Tanks" nodeId="58">
+        <Shape shapeId="1" name="TankLiquidFertilizer" clipDistance="400" nodeId="59" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="2" name="TankSlurry" clipDistance="400" nodeId="60" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="TankPart" clipDistance="400" nodeId="61" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="TankHerbicide" clipDistance="400" nodeId="62" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="TankPart" translation="0 0 -5.11022" clipDistance="400" nodeId="63" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="TankSlurry" translation="0 4.25259 3" clipDistance="400" nodeId="64" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="TankLiquidFertilizer" translation="0 4.25259 0" clipDistance="400" nodeId="65" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="7" name="TankHerbicide" translation="0 4.25259 -3" clipDistance="400" nodeId="66" materialIds="11" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="PumpHouse" nodeId="67">
+        <Shape shapeId="8" name="pumpBuilding" clipDistance="400" nodeId="68" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="9" name="PipeConnector" clipDistance="300" nodeId="69" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="10" name="PipesPlus" clipDistance="400" nodeId="70" materialIds="10" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="gameplay" nodeId="244">
+        <TransformGroup name="IN" nodeId="245">
+          <Shape shapeId="11" name="triggerPosIN" static="true" trigger="true" collisionMask="1073741824" nodeId="246" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="-7.5 0 -4.5" nodeId="247"/>
+            <TransformGroup name="triggerEnd" translation="-7.5 0 4.5" nodeId="248"/>
+            <Shape shapeId="12" name="triggerShovelTarget" static="true" collisionMask="8388608" nodeId="249" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="13" name="exactFillRootNode" translation="0 0.114 0" static="true" collisionMask="1073741824" nodeId="250" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <Shape shapeId="14" name="FillTriggerManual" translation="-7.14108 0 1.09568" static="true" trigger="true" collisionMask="11534336" linearDamping="0.5" angularDamping="0.5" nodeId="251" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </TransformGroup>
+        <TransformGroup name="OUT" nodeId="252">
+          <Shape shapeId="15" name="triggerPosOUT" static="true" trigger="true" collisionMask="1088421888" nodeId="253" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="triggerStart" translation="-7.5 0 -4.5" nodeId="254"/>
+            <TransformGroup name="triggerEnd" translation="-7.5 0 4.5" nodeId="255"/>
+            <TransformGroup name="effect" nodeId="256">
+              <Shape shapeId="16" name="GasSmokeEffect" visibility="false" clipDistance="100" nodeId="257" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="dischargeNode" translation="-7.28495 0 -0.0681735" nodeId="258"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="storage" nodeId="259"/>
+        <TransformGroup name="mapPosition" translation="-7.3 0 0" nodeId="260"/>
+        <TransformGroup name="areaDefinitions" nodeId="261">
+          <TransformGroup name="snowAreas" scale="1.1 1.1 1" nodeId="262">
+            <TransformGroup name="Start01" translation="-3.6 0 1.6" nodeId="263">
+              <TransformGroup name="Width" translation="0 0 -3.2" nodeId="264"/>
+              <TransformGroup name="Height" translation="-2.27497 0 0" nodeId="265"/>
+            </TransformGroup>
+            <TransformGroup name="Start02" translation="-6 0 1.05" nodeId="266">
+              <TransformGroup name="Width" translation="0 0 -2.15" nodeId="267"/>
+              <TransformGroup name="Height" translation="-0.9 0 0" nodeId="268"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="levelAreas" nodeId="269">
+            <TransformGroup name="Start" translation="-8 0 -4.5" nodeId="270">
+              <TransformGroup name="Width" translation="12 0 0" nodeId="271"/>
+              <TransformGroup name="Height" translation="0 0 9" nodeId="272"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="ClearAreas" nodeId="273">
+            <TransformGroup name="Start" translation="-8 0 -4.5" nodeId="274">
+              <TransformGroup name="Width" translation="12 0 0" nodeId="275"/>
+              <TransformGroup name="Height" translation="0 0 9" nodeId="276"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="WarningStripes" translation="-7.3 0 1.8" nodeId="277">
+          <Shape shapeId="17" name="WarningStripes_vis" translation="6.9349 0.01 -1.8" clipDistance="300" nodeId="278" materialIds="5" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="exitNode" translation="-7.3 0 1.8" nodeId="279"/>
+        <TransformGroup name="OutdoorCameraTarget" translation="-7.3 0 1.8" visibility="false" nodeId="280">
+          <Camera name="persp" translation="-7.10492 8.66686 -8.28599" rotation="142.185 -50.7427 -180" visibility="false" nodeId="175" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
+          <Camera name="OutdoorCamera" translation="-8.17136 7.1143 -6.67298" rotation="151.811 -67.0161 180" nodeId="281" fov="60" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
+        </TransformGroup>
+        <TransformGroup name="switch_01" translation="-6.346 1.125 -1.72256" rotation="1.00179e-05 90 0" scale="0.909091 1 1.1" visibility="false" nodeId="282">
+          <Shape shapeId="18" name="playerTrigger" translation="0.575254 0 0.017977" scale="0.8 0.8 0.8" static="true" trigger="true" clipDistance="25" nodeId="283" materialIds="177" nonRenderable="true"/>
+          <Shape shapeId="19" name="lightswitch01" rotation="-4.86262e-13 0 1.00179e-05" clipDistance="25" nodeId="284" materialIds="182" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="20" name="lever" translation="0.0692054 0 0" nodeId="285" materialIds="182" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="onButton" translation="0.0532408 0.0469999 -7.62939e-06" rotation="1.00179e-05 90 0" scale="0.909091 1 1.1" clipDistance="100" nodeId="286" materialIds="178" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" translation="-8.58307e-06 1.19209e-07 0" rotation="0 -90 0" scale="0.909091 1 1.1" visibility="false" nodeId="287">
+                <Light name="spotLight" translation="0.005 0 7.57166e-11" rotation="0 -90 0" clipDistance="300" nodeId="288" type="spot" color="0 1 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.1" coneAngle="60" dropOff="5"/>
+                <Shape shapeId="22" name="on_illum" rotation="1.00179e-05 90 0" clipDistance="100" nodeId="289" materialIds="179" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </Shape>
+            <Shape shapeId="23" name="autoButton" translation="0.053 -0.0399998 -0.042" rotation="1.00179e-05 90 0" scale="0.909091 1 1.1" clipDistance="100" nodeId="290" materialIds="178" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" translation="1.90735e-06 -1.19209e-07 0" rotation="1.00179e-05 -90 0" scale="0.909091 1 1.1" visibility="false" nodeId="291">
+                <Light name="spotLight" translation="0.005 0 7.57166e-11" rotation="0 -90 0" clipDistance="300" nodeId="292" type="spot" color="0 0 1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.1" coneAngle="60" dropOff="5"/>
+                <Shape shapeId="24" name="auto_illum" rotation="1.00179e-05 90 0" clipDistance="100" nodeId="293" materialIds="181" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </Shape>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="switch_02" translation="-6.346 1.125 1.63034" rotation="1.00179e-05 -90 0" scale="0.909091 1 1.1" nodeId="294">
+          <Shape shapeId="25" name="playerTrigger" translation="0.575254 0 0.017977" scale="0.8 0.8 0.8" static="true" trigger="true" clipDistance="25" nodeId="295" materialIds="177" nonRenderable="true"/>
+          <Shape shapeId="26" name="lightswitch" rotation="-4.86262e-13 0 1.00179e-05" clipDistance="25" nodeId="296" materialIds="182" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="27" name="lever" translation="0.0692054 0 0" nodeId="297" materialIds="182" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="28" name="onButton" rotation="1.00179e-05 90 0" clipDistance="100" nodeId="298" materialIds="178" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" rotation="1.00179e-05 -90 0" visibility="false" nodeId="299">
+                <Light name="spotLight" translation="0 0.0456008 0" rotation="0 -90 0" clipDistance="300" nodeId="300" type="spot" color="0 1 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.1" coneAngle="60" dropOff="5"/>
+                <Shape shapeId="29" name="on_illum" rotation="1.00179e-05 90 0" clipDistance="100" nodeId="301" materialIds="179" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </Shape>
+            <Shape shapeId="30" name="offButton" rotation="1.00179e-05 90 0" clipDistance="100" nodeId="302" materialIds="178" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="illum" rotation="1.00179e-05 -90 0" visibility="false" nodeId="303">
+                <Light name="spotLight" translation="-0.00544583 -0.0392264 -0.0370629" rotation="0 -90 0" clipDistance="300" nodeId="304" type="spot" color="1 0.03 0" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.1" coneAngle="60" dropOff="5"/>
+                <Shape shapeId="31" name="off_illum" rotation="1.00179e-05 90 0" clipDistance="100" nodeId="305" materialIds="180" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </Shape>
+          </Shape>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="Decals" nodeId="100">
+        <Shape shapeId="32" name="decals" clipDistance="300" nodeId="101" materialIds="5" receiveShadows="true"/>
+        <Shape shapeId="33" name="Sign" clipDistance="300" nodeId="102" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="34" name="Logo" clipDistance="300" nodeId="103" materialIds="5" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="35" name="sign50000L" clipDistance="300" nodeId="104" materialIds="5" receiveShadows="true"/>
+        <TransformGroup name="extraNumbers" visibility="false" nodeId="105">
+          <Shape shapeId="36" name="Sign_nr0R" translation="-0.536232 3.65736 7.87" clipDistance="300" nodeId="106" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="37" name="SIgn_nr0L" translation="-1.0803 0 0" clipDistance="300" nodeId="107" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="38" name="sign_LitreL" clipDistance="300" nodeId="108" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="39" name="sign_LitreR" clipDistance="300" nodeId="109" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="40" name="sign_nr3R" clipDistance="300" nodeId="110" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="41" name="sign_nr3L" clipDistance="300" nodeId="111" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="42" name="sign_nr200L" clipDistance="300" nodeId="112" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="43" name="sign_nr200R" clipDistance="300" nodeId="113" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="44" name="Sign_nr000L" clipDistance="300" nodeId="114" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="45" name="Sign_nr000R" clipDistance="300" nodeId="115" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="46" name="Sign100L" clipDistance="300" nodeId="116" materialIds="5" receiveShadows="true"/>
+          <Shape shapeId="47" name="Sign100R" clipDistance="300" nodeId="117" materialIds="5" receiveShadows="true"/>
+        </TransformGroup>
+        <Shape shapeId="48" name="decals01" translation="-5.08327 1.05789 -2.64567" clipDistance="300" nodeId="118" materialIds="5,8" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="49" name="decals02" translation="0 4.24128 0.00170994" clipDistance="300" nodeId="119" materialIds="5,8" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="50" name="decals03" translation="0 4.24128 0.00170994" rotation="180 5.00896e-06 180" clipDistance="300" nodeId="120" materialIds="5,8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="Lights" nodeId="121">
+        <Shape shapeId="51" name="floodLightBlue-400" translation="-2.937 5.6 -4.264" rotation="-180 -20 -180" clipDistance="300" nodeId="122" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.36604e-05 -8.53774e-06 -25" clipDistance="80" nodeId="123" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="124">
+              <Shape shapeId="53" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="125" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="126" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="80" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="51" name="floodLightBlue-400" translation="-2.937 5.6 4.264" rotation="180 20 180" clipDistance="300" nodeId="127" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="0 4.26887e-07 -25" clipDistance="80" nodeId="128" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="129">
+              <Shape shapeId="53" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="130" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="131" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="20" coneAngle="80" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="51" name="floodLightBlue-400" translation="2.937 5.55 4.285" rotation="90 1.30967e-06 -125" clipDistance="300" nodeId="132" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.91464e-08 1.4224e-07 25" clipDistance="80" nodeId="133" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="134">
+              <Shape shapeId="53" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="135" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="136" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="4" coneAngle="90" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="51" name="floodLightBlue-400" translation="2.937 5.55 -4.285" rotation="-90 -1.81911e-07 -125" clipDistance="300" nodeId="137" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="1.04831e-11 -1.38418e-11 25" clipDistance="80" nodeId="138" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="139">
+              <Shape shapeId="53" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="140" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="141" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="4" coneAngle="90" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="51" name="floodLightBlue-400" translation="2.95 5.55 -4.264" rotation="0 -0 -90" clipDistance="300" nodeId="142" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.000670971" rotation="0 -1.38418e-11 25" clipDistance="80" nodeId="143" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="144">
+              <Shape shapeId="53" name="glass" translation="0.037 0 0" clipDistance="200" nodeId="145" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="0 -90 0" clipDistance="400" nodeId="146" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="4" coneAngle="90" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="51" name="floodLightBlue-400" translation="2.95 5.55 4.264" rotation="0 -0 -90" clipDistance="300" nodeId="147" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.002 0.154197 -0.000670971" rotation="1.20098e-11 -1.31293e-11 25" clipDistance="80" nodeId="148" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="149">
+              <Shape shapeId="53" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="150" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="151" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="4" coneAngle="90" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="51" name="floodLightBlue-400" translation="-6.483 1.442 0" rotation="-180 -0 -75.047" clipDistance="300" nodeId="152" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="3.94334e-06 -8.17778e-07 60" clipDistance="80" nodeId="153" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="154">
+              <Shape shapeId="53" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="155" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="0 -90 0" clipDistance="400" nodeId="156" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="8" coneAngle="100" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="54" name="floodLight_lamp" translation="-6.51875 1.41154 -1.38474" rotation="180 -1.36604e-05 -90" clipDistance="80" nodeId="157" materialIds="4" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="158">
+            <Shape shapeId="55" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="159" materialIds="6" castsShadows="true" receiveShadows="true">
+              <Light name="spotLight" translation="0.00341466 0.0184863 -2.47342e-09" rotation="3.18055e-15 -90 0" clipDistance="400" nodeId="160" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="2" coneAngle="50" dropOff="4"/>
+            </Shape>
+          </TransformGroup>
+        </Shape>
+        <Shape shapeId="51" name="floodLightBlue-400" translation="-3.02987 5.55992 1.28454" rotation="-180 -0 -75.047" clipDistance="300" nodeId="161" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="3.94334e-06 -8.17778e-07 60" clipDistance="80" nodeId="162" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="163">
+              <Shape shapeId="53" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="164" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="0 -90 0" clipDistance="400" nodeId="165" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="8" coneAngle="100" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+        <Shape shapeId="51" name="floodLightBlue-400" translation="-3.02987 5.55992 -1.285" rotation="-180 -0 -75.047" clipDistance="300" nodeId="166" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="52" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="3.94334e-06 -8.17778e-07 60" clipDistance="80" nodeId="167" materialIds="4" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="6.93889e-18 -1.20185e-17 0" visibility="false" nodeId="168">
+              <Shape shapeId="53" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="169" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Light name="spotLight" translation="0.06 0.00588252 0" rotation="0 -90 0" clipDistance="400" nodeId="170" type="spot" color="0.2 0.5 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.005" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="1" range="8" coneAngle="100" dropOff="4"/>
+            </TransformGroup>
+          </Shape>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="Collison" visibility="false" nodeId="171">
+        <Shape shapeId="56" name="col" static="true" nodeId="172" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="57" name="col01" translation="0 0 -5.10363" static="true" nodeId="173" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="58" name="col02" translation="0 2.83065 0" static="true" nodeId="174" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="246">
+      <Attribute name="shovelTargetIndex" type="string" value="3"/>
+    </UserAttribute>
+    <UserAttribute nodeId="253">
+      <Attribute name="shovelTargetIndex" type="string" value="3"/>
+    </UserAttribute>
+    <UserAttribute nodeId="257">
+      <Attribute name="materialType" type="string" value="SMOKE"/>
+      <Attribute name="useSelfAsEffectNode" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="124">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="129">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="134">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="139">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="144">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="149">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="154">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="158">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="163">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+    <UserAttribute nodeId="168">
+      <Attribute name="onCreate" type="scriptCallback" value="NightIllumination.onCreate"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

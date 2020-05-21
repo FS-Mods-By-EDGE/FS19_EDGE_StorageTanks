@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_name_EDGEFertilizerStorageStack</name>
+        <functions>
+            <function>$l10n_function_EDGEFertilizerStorage</function>
+        </functions>
+        <specs>
+            <capacity>120000</capacity>
+            <fillTypes>DIGESTATE LIQUIDMANURE LIQUIDFERTILIZER HERBICIDE WATER</fillTypes>
+        </specs>
+        <image>store/store_EDGEFertilizerStorageStack.dds</image>
+        <price>100000</price>
+        <dailyUpkeep>30</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>EDGE</brand>
+        <species>placeable</species>
+        <category>silos</category>
+    </storeData>
+    <placeableType>silo</placeableType>
+    <filename>Tanks/EDGEFertilizerStorageStack.i3d</filename>
+    <placement testSizeX="9" testSizeZ="7" sizeX="10" sizesZ="8" useRandomYRotation="false" useManualYRotation="true"/>
+    <loadingStation stationName="$l10n__EDGELFT" appearsOnPDA="false" storageRadius="100" fillSoundIdentifier="SLURRY_01">
+        <loadTrigger triggerNode="2|1|0" fillLitersPerSecond="2000" dischargeNode="2|1|0|3">
+            <effectNode effectNode="2|1|0|2|0" effectClass="ParticleEffect" particleType="smoke" materialTypeId="1" fadeTime="0.5"/>
+        </loadTrigger>
+    </loadingStation>
+    <unloadingStation stationName="$l10n_EDGELiquidFertilizer" appearsOnPDA="false" storageRadius="100">
+        <unloadTrigger triggerNode="2|0|0" exactFillRootNode="2|0|0|3"/>
+		<!-- Controls for use in later update
+		<controls triggerNode="2|0|1" posAction="ACTIVATE_OBJECT" posText="$l10n_action_fillStorage" negText="$l10n_action_stopFillStorage" /> -->
+    </unloadingStation>
+    <animatedObjects>
+        <animatedObject saveId="switch_02">
+            <animation duration="0.5">
+                <part node="2|9|1|0">
+                    <keyFrame time="0.0" rotation="90 0 0"/>
+                    <keyFrame time="1.0" rotation="-50 0 0"/>
+                </part>
+                <part node="2|5">
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="1.0" visibility="false"/>
+                </part>
+                <part node="2|9|1|1|0">
+                    <keyFrame time="0.0" visibility="true"/>
+                    <keyFrame time="1.0" visibility="false"/>
+                </part>
+                <part node="2|9|1|2|0">
+                    <keyFrame time="0.0" visibility="false"/>
+                    <keyFrame time="1.0" visibility="true"/>
+                </part>
+            </animation>
+            <controls triggerNode="2|9|0" posAction="ACTIVATE_HANDTOOL" posText="action_turnOffMarking" negText="action_turnOnMarking"/>
+        </animatedObject>
+    </animatedObjects>
+    <storages>
+        <storage node="2|2" fillTypes="DIGESTATE LIQUIDMANURE LIQUIDFERTILIZER HERBICIDE WATER" capacityPerFillType="120000"/>
+    </storages>
+    <hotspots>
+        <hotspot name="$l10n_EDGELFS" fullName="$l10n_name_EDGEFertilizerStorage" imageName="SELLING_POINT" hidable="true" linkNode="2|3" category="CATEGORY_TRIGGERS"/>
+    </hotspots>
+    <clearAreas>
+        <clearArea startNode="2|4|2|0" widthNode="2|4|2|0|0" heightNode="2|4|2|0|1"/>
+    </clearAreas>
+    <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="85" maxEdgeAngle="35">
+        <levelAreas>
+            <levelArea startNode="2|4|1|0" widthNode="2|4|1|0|0" heightNode="2|4|1|0|1"/>
+        </levelAreas>
+    </leveling>
+    <seasons>
+        <maskAreas>
+            <maskArea startNode="2|4|0|0" widthNode="2|4|0|0|0" heightNode="2|4|0|0|1"/>
+            <maskArea startNode="2|4|0|1" widthNode="2|4|0|1|0" heightNode="2|4|0|1|1"/>
+        </maskAreas>
+    </seasons>
+    <dayNightObjects>
+        <dayNightObject node="4|0|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|1|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|2|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|3|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|4|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|5|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|6|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|8|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|9|0|0" visibleDay="false" visibleNight="true" intensityNight="0.6"/>
+        <dayNightObject node="4|7|0" visibleDay="true" visibleNight="true" intensityDay="1" intensityNight="0.6"/>
+    </dayNightObjects>
+	<triggerMarkers>
+        <triggerMarker node="2|6" />
+    </triggerMarkers>
+    <tipOcclusionUpdateArea sizeX="10" sizeZ="8"/>
+</placeable>
