@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="47">
-    <author>Edge Gaming / Castiga</author>
+    <author>Edge Gaming</author>
     <version>1.0.0.0</version>
     <title><!-- en=English de=Germany jp=Japan pl=Poland cz=Czechia fr=French es=Spanish ru=Russian it=Italy pt=Portugal hu=Hungary nl=Netherlands cs=Serbia and Montenegro ct=Central African Republic br=Brazil tr=Turkey ro=Romania kr=South Korea -->
         <en>EDGE Liquid Fertilizer Storage</en>
         <de>EDGE Flüssigdüngerlagerung</de>
         <fr>EDGE Stockage D'engrais Liquide</fr>
-		<es>EDGE Almacenamiento de fertilizante líquido</es>
-		<ru>EDGE Хранение жидких удобрений</ru>
-		<pl>EDGE Przechowywanie płynnych nawozów</pl>
+		<es>EDGE Almacenamiento De Fertilizante Líquido</es>
+		<ru>EDGE Хранение Жидких Удобрений</ru>
+		<pl>EDGE Przechowywanie Płynnych Nawozów</pl>
+        <it>EDGE Conservazione Del Fertilizzante Liquido</it>
     </title>
     <description>
         <en><![CDATA[EDGE Liquid Fertilizer is a placeable Liquid Fertilizer storage for your farm, here you can store Slurry, Digestate, Herbicide & Liquid Fertilizer.
@@ -32,7 +33,12 @@ Upkeep: 30€ Daily
 Size: 10 x 8m
 Weight: 110.000kg
 Capacity: 120.000 Litre
-Overloading Speed 2000 L/s]]></en>
+Overloading Speed 2000 L/s
+
+-The Buildings supports "Seasons" & "Courseplay Six".
+
+-If you find any bugs or got suggestions for improvment, please dont hesitate to contact us on our Github page at https://github.com/FS19-Mods-By-EDGE/
+or Contact EDGEPureGaming on facebook.]]></en>
         <de><![CDATA[Liquid Ferilizer ist ein platzierbares Flüssigdüngerlager für Ihren Betrieb. Hier können Sie Gülle, Gärreste, Herbizide und Flüssigdünger lagern.
 Sie können zwischen einer kleinen, einer größeren Version mit doppeltem Speicher und einer großen gestapelten Version für diejenigen wählen, die auf ihrer Farm etwas Platz sparen möchten.
 Der gespeicherte Betrag wird in Ihrem Speicher angezeigt.
@@ -54,7 +60,12 @@ Unterhalt: 30 € Täglich
 Größe: 10 x 8 m
 Gewicht: 110.000 kg
 Fassungsvermögen: 120.000 Liter
-Überladegeschwindigkeit 2000 L/s]]></de>
+Überladegeschwindigkeit 2000 L/s
+
+-Die Gebäude unterstützen "Seasons" und "Courseplay Six".
+
+-Wenn Sie Fehler finden oder Verbesserungsvorschläge haben, zögern Sie bitte nicht, uns auf unserer Github-Seite unter https://github.com/FS19-Mods-By-EDGE/
+zu kontaktieren oder EDGEPureGaming auf Facebook zu kontaktieren.]]></de>
         <fr><![CDATA[Liquid Ferilizer est un stockage d’engrais liquides pour votre ferme. Vous pouvez y stocker du lisier, du digestat, des herbicides et des engrais liquides.
 Vous pourrez choisir entre une version plus petite, une version plus grande avec une mémoire double et une grande version empilée pour ceux qui veulent économiser de l’espace sur leur ferme.
 La quantité stockée apparaîtra dans votre mémoire.
@@ -76,7 +87,12 @@ Entretien: 30 € par jour
 Taille: 10 x 8m
 Poids: 110.000kg
 Capacité: 120.000 litres
-Surcharge Vitesse 2000 L/s]]></fr>
+Surcharge Vitesse 2000 L/s
+
+-Les bâtiments prennent en charge "Seasons" et "Courseplay Six".
+
+-Si vous trouvez des bugs ou avez des suggestions d'amélioration, n'hésitez pas à nous contacter sur notre page Github à https://github.com/FS19-Mods-By-EDGE/
+ou Contacter EDGEPureGaming sur facebook.]]></fr>
 		<es><![CDATA[EDGE Fertilizante liquido es un almacenamiento placentero de Fertilizante Líquido para su granja, aquí puede almacenar Lodos, Digestatos, Herbicidas y Fertilizantes Líquidos
 Podrás elegir entre una versión pequeña, una más grande con duplicar el almacenamiento y una grande apilada para aquellos que desean ahorrar algo de espacio en su granja.
 La cantidad almacenada se mostrará en su almacenamiento.
@@ -98,7 +114,12 @@ Mantenimiento: 30 € por día.
 Tamaño: 10 x 8m
 Peso: 110.000kg.
 Capacidad: 120.000 litros.
-Velocidad de sobrecarga 2000 L / s]]></es>
+Velocidad de sobrecarga 2000 L / s
+
+-Los edificios son compatibles con "Seasons" y "Courseplay Six".
+
+-Si encuentra algún error u obtiene sugerencias de mejora, no dude en contactarnos en nuestra página de Github en https://github.com/FS19-Mods-By-EDGE/
+o póngase en contacto con EDGEPureGaming en Facebook.]]></es>
 		<ru><![CDATA[EDGE Жидкое удобрение - это место для хранения жидких удобрений для вашей фермы, здесь вы можете хранить жидкий навоз, дайджест, гербицид и жидкие удобрения.
 Вы сможете выбрать между маленькой версией, более крупной с дублированием хранилища и одной большой, для тех, кто хочет сэкономить место на своей ферме.
 Сумма хранится будет отображаться в вашем хранилище.
@@ -120,7 +141,12 @@ EDGE Жидкое удобрение в штабеле:
 Размер: 10 х 8 м
 Вес: 110.000 кг
 Емкость: 120.000 литров
-Скорость перегрузки 2000 л / с]]></ru>
+Скорость перегрузки 2000 л / с
+
+- Постройки поддерживает «Seasons» и «Courseplay Six».
+
+-Если вы обнаружите какие-либо ошибки или получите предложения по улучшению, пожалуйста, не стесняйтесь связаться с нами на нашей странице Github по адресу https://github.com/FS19-Mods-By-EDGE/
+или связаться с EDGEPureGaming на Facebook.]]></ru>
 		<pl><![CDATA[EDGE Płynny nawóz to miejsce do przechowywania płynnych nawozów na potrzeby gospodarstwa, w którym można przechowywać gnojowicę, fermentat, herbicyd i płynny nawóz.
 Będziesz mógł wybrać pomiędzy małą wersją, większą z dubble i jedną dużą ułożoną dla tych, którzy chcą zaoszczędzić trochę miejsca w swojej farmie.
 Zapisana ilość pojawi się w Twoim magazynie.
@@ -142,7 +168,39 @@ Utrzymanie: 30 € dziennie
 Rozmiar: 10 x 8 m
 Waga: 110 000 kg
 Pojemność: 120 000 litrów
-Prędkość przeciążania 2000 L / s]]></pl>
+Prędkość przeciążania 2000 L / s
+
+- Budynki obsługują „Seasons” i „Courseplay Six”.
+
+-Jeśli znajdziesz jakieś błędy lub masz sugestie dotyczące ulepszeń, nie wahaj się skontaktować z nami na naszej stronie Github pod adresem https://github.com/FS19-Mods-By-EDGE/
+lub Skontaktuj się z EDGEPureGaming na Facebooku.]]></pl>
+        <it><![CDATA[Il fertilizzante liquido EDGE è un deposito di fertilizzante liquido posizionabile per la tua fattoria, qui puoi conservare liquami, digestati, erbicidi e fertilizzanti liquidi.
+Sarai in grado di scegliere tra una versione più piccola, una più grande con Dubble lo storage e una grande impilata per coloro che vogliono risparmiare spazio nella loro fattoria.
+L'importo memorizzato verrà visualizzato nel tuo archivio.
+Gli edifici dispongono di fari da lavoro per il lavoro notturno e sono facilmente accessibili per tutti i macchinari.
+
+Le scelte di costruzione sono le seguenti:
+
+Fertilizzante liquido EDGE:
+Prezzo: 60.000 €
+Manutenzione: 20 € al giorno
+Dimensioni: 10 x 8 m
+Peso: 80.000 kg
+Capacità: 60.000 litri
+Velocità di sovraccarico 2000 L / s
+
+Fertilizzante liquido EDGE impilato:
+Prezzo: 100.000 €
+Manutenzione: 30 € al giorno
+Dimensioni: 10 x 8 m
+Peso: 110.000 kg
+Capacità: 120.000 litri
+Velocità di sovraccarico 2000 L / s
+
+-Supporta "Stagioni" e "Courseplay Six".
+
+-Se trovi qualche bug o hai suggerimenti per l'improvvisazione, non esitare a contattarci sulla nostra pagina Github all'indirizzo https://github.com/FS19-Mods-By-EDGE/
+o Contatta EDGEPureGaming su Facebook.]]></it>
 	</description>
     <iconFilename>TanksIcon.dds</iconFilename>
     <multiplayer supported="true"/>
